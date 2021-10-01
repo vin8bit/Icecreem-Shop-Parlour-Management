@@ -143,8 +143,6 @@ public class Customer extends JFrame {
 			bl5.setBounds(100,240,150,30);
 			bl6 = new JLabel("Time :");
 			bl6.setBounds(100,280,150,30);
-			//bl7 = new JLabel("Total price :");
-			//bl7.setBounds(100,320,150,30);
 			bl8 = new JLabel("Address :");
 			bl8.setBounds(100,320,150,30);
 
@@ -180,8 +178,6 @@ public class Customer extends JFrame {
 			bl6tf = new JTextField(150);
 			bl6tf.setBounds(250,280,150,25);
 			
-			//bl7tf = new JTextField(150);
-			//bl7tf.setBounds(250,320,150,25);
 			CheckEvent ck= new CheckEvent();
 			get = new JButton("Get ID");
 			get.setBounds(450,120,100,25);
@@ -241,7 +237,7 @@ public class Customer extends JFrame {
 			///////************Feedback c1******************//////
 
 			JLabel tl5=new JLabel("Feedback here");
-			Font font5= new Font("Lucida Handwriting",Font.BOLD,20);
+			Font font5= new Font("Cambria Math",Font.BOLD,20);
 			tl5.setForeground(Color.black);
 			tl5.setBounds(180,40,250,30);
 			tl5.setFont(font5);
