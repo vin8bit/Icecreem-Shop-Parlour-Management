@@ -38,7 +38,7 @@ public class Admin extends JFrame {
 		ResultSet rs2 ;
 		String user="system";
 		String pass="system";
-		String columns[]={"Product ID","Product Name","Image","Category","Quantity","price only 1","Description"};
+		String columns[]={"Product ID","Product Name","Image","Category","Quantity","Price Only 1","Description"};
 		TableModel tmodel;
 		JTable jtable;
 		TableRowSorter<TableModel> rsorter;
@@ -123,7 +123,7 @@ public class Admin extends JFrame {
 			tabbed.addTab("Order",new ImageIcon("image/order2.png"),tabbedm2,"Order");
 			tabbed.addTab("Customer",new ImageIcon("image/customer.png"),tabbedm4,"Customer");
 			tabbed.addTab("Feedback",new ImageIcon("image/feed2.png"),tabbedm5,"Feedback");
-			tabbed.addTab("Logout",new ImageIcon("image/logout.png"),tabbedm6,"Log out");
+			tabbed.addTab("Logout",new ImageIcon("image/logout.png"),tabbedm6,"Log Out");
 
 			/////******Order Menu******/////
 			tabbed2 = new JTabbedPane();
@@ -1038,7 +1038,7 @@ public class Admin extends JFrame {
 					s1=delete2tf.getText();
 					
 					if(s1.isEmpty()){
-						JOptionPane.showMessageDialog(obj,"Text fields is empty","Error",JOptionPane.ERROR_MESSAGE);
+						JOptionPane.showMessageDialog(obj,"Text Fields is Empty","Error",JOptionPane.ERROR_MESSAGE);
 					
 					}
 					else{
@@ -1097,7 +1097,7 @@ public class Admin extends JFrame {
 					s1=delete3tf.getText();
 					
 					if(s1.isEmpty()){
-						JOptionPane.showMessageDialog(obj,"Text fields is empty","Error",JOptionPane.ERROR_MESSAGE);
+						JOptionPane.showMessageDialog(obj,"Text Fields is Empty","Error",JOptionPane.ERROR_MESSAGE);
 					
 					}
 					else{
@@ -1150,7 +1150,7 @@ public class Admin extends JFrame {
 						
       							conn.close();
 				   			} catch(Exception r){}
-							}else{ JOptionPane.showMessageDialog(obj,"This Customer not send feedback","Erro",JOptionPane.ERROR_MESSAGE);}	
+							}else{ JOptionPane.showMessageDialog(obj,"This Customer Not Send Feedback","Error",JOptionPane.ERROR_MESSAGE);}	
 						}else{ JOptionPane.showMessageDialog(obj,"Incorrect Customer ID","Erro",JOptionPane.ERROR_MESSAGE);}
 							
 																	
@@ -1180,7 +1180,7 @@ public class Admin extends JFrame {
 					s7=bl7tf4.getText();
 
 					if(s1.isEmpty()||s2.isEmpty()||s3.isEmpty()||s4.isEmpty()||s5.isEmpty()||s6.isEmpty()||s6.isEmpty()||s7.isEmpty()){
-						JOptionPane.showMessageDialog(obj,"Text fields is empty","Error",JOptionPane.ERROR_MESSAGE);
+						JOptionPane.showMessageDialog(obj,"Text Fields is Empty","Error",JOptionPane.ERROR_MESSAGE);
 					
 					}
 					else{
@@ -1271,7 +1271,7 @@ public class Admin extends JFrame {
 							}else{  JOptionPane.showMessageDialog(obj,"Product not found","Error",JOptionPane.ERROR_MESSAGE);}
 
 
-						}else{ JOptionPane.showMessageDialog(obj,"Textfield is empty","Error",JOptionPane.ERROR_MESSAGE);}
+						}else{ JOptionPane.showMessageDialog(obj,"Textfield is Empty","Error",JOptionPane.ERROR_MESSAGE);}
 					
 					}
 			}
@@ -1373,7 +1373,7 @@ public class Admin extends JFrame {
 					s5=String.valueOf(t);
 					System.out.println(s5);	
 					if(s1.isEmpty()||s2.isEmpty()||s3.isEmpty()||s4.isEmpty()||s5.isEmpty()||s6.isEmpty()||s6.isEmpty()||s7.isEmpty()){
-					JOptionPane.showMessageDialog(obj,"Text fields is empty","Error",JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(obj,"Text Fields is Empty","Error",JOptionPane.ERROR_MESSAGE);
 					
 					}
 					else{
