@@ -21,9 +21,9 @@ public class OrderReceipt extends JFrame {
 			tl.setBounds(180,40,250,30);
 			tl.setFont(font);
 			p.add(tl);
-			p.setBorder(new TitledBorder(new LineBorder(new Color(0,162,232), 5),"Thank you",0,0,new Font("Segoe Script",Font.BOLD,20),new Color(0,162,232)));		
+			p.setBorder(new TitledBorder(new LineBorder(new Color(0,162,232), 5),"Thank you",0,0,new Font("Cambria Math",Font.BOLD,20),new Color(0,162,232)));		
 			
-			bl1 = new JLabel("Ice creem name :");
+			bl1 = new JLabel("Ice-Cream Name :");
 			bl1.setBounds(100,80,150,30);
 			bl2 = new JLabel("Customer id :");
 			bl2.setBounds(100,120,150,30);
@@ -37,7 +37,7 @@ public class OrderReceipt extends JFrame {
 			bl6.setBounds(100,280,150,30);
 			bl7 = new JLabel("Time :");
 			bl7.setBounds(100,320,150,30);
-			bl8 = new JLabel("Total price :");
+			bl8 = new JLabel("Total Price :");
 			bl8.setBounds(100,360,150,30);
 			bl9 = new JLabel("Address :");
 			bl9.setBounds(100,400,150,30);
