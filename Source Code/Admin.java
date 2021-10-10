@@ -48,7 +48,7 @@ public class Admin extends JFrame {
 		JTable jtable2;
 		TableRowSorter<TableModel> rsorter2;
 
-		String columns3[]={"Customer ID","Customer Name","Password","Date","Phone no","Address"};
+		String columns3[]={"Customer ID :","Customer Name","Password","Date","Phone no","Address"};
 		TableModel tmodel3;
 		JTable jtable3;
 		TableRowSorter<TableModel> rsorter3;
