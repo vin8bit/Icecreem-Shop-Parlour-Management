@@ -37,7 +37,7 @@ public class Admin extends JFrame {
 		Statement stm2;
 		ResultSet rs2 ;
 		String user="system";
-		String pass="system";
+		String pass="1234";
 		String columns[]={"Product ID","Product Name","Image","Category","Quantity","price only 1","Description"};
 		TableModel tmodel;
 		JTable jtable;
