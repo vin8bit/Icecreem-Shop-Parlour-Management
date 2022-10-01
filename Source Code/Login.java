@@ -16,7 +16,7 @@ public class Login extends JFrame implements ItemListener , ActionListener
 	Statement stm;
 	Connection con;
 	ResultSet rs;
-	String lib="Customer Login";
+	String lib="Login Here";
 	JPanel panel;
 	public Login()
 	{
