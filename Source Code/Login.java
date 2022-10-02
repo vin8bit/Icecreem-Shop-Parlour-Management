@@ -30,7 +30,7 @@ public class Login extends JFrame implements ItemListener , ActionListener
 		panel=new JPanel();
 		panel.setLayout(null);
 		panel.setBounds(0,0,600,400);
-		JLabel label1=new JLabel("Ice creem parlour");
+		JLabel label1=new JLabel("Ice-cream Parlour");
 		label1.setLayout(null);
 		label1.setBounds(60,20,500,60);
 		label1.setForeground(Color.blue);
